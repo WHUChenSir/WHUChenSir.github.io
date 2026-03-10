@@ -1,3 +1,21 @@
-theme: jekyll-theme-minimal
-title: 我的个人网站
-description: 这是我用GitHub搭建的第一个网站
+# 主题选择（6选1，把前面的#删掉即可启用，默认用极简个人主页款）
+# theme: jekyll-theme-minimal      # 极简个人主页首选（适配长文+资源）
+# theme: jekyll-theme-cayman       # 简约商务风
+# theme: jekyll-theme-slate        # 深色技术风（适合程序员/研究者）
+# theme: minima                     # 极简博客风
+# theme: jekyll-theme-hacker       # 复古打字机风
+theme: jekyll-theme-merlot         # 现代简约风（自带导航栏，推荐）
+
+# 网站基本信息（必换）
+title: 【你的名字】的个人主页
+description: 【一句话介绍自己，比如：分享量子计算、LaTeX和学习资源】
+
+# 你的社交链接（可选，有就填，没有就删掉）
+github_username: 你的GitHub用户名
+linkedin_username: 你的LinkedIn用户名
+
+# 网站导航栏（可选，启用后会在顶部显示导航，需要配合新建对应文件）
+ header_pages:
+   - index.md      # 主页（就是这个README）
+   - about.md      # 关于我（需要在仓库新建about.md文件）
+   - resources.md  # 资源分享（需要在仓库新建resources.md文件）
